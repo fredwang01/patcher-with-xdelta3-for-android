@@ -15,7 +15,7 @@
 
 //---------------------------------------------------------------------------
 
-int code (
+static int code (
   int encode,
   FILE*  InFile,
   FILE*  SrcFile ,
@@ -183,7 +183,7 @@ process:
     return ret;
 }
 
-JNIEXPORT jint  Java_com_qihoo_antivirus_update_UpdatePatchInstall_patch(
+JNIEXPORT jint  Java_com_fred_patcher_PatchInstall_install(
         JNIEnv* env,
         jobject thiz,
         jint encode,
