@@ -9,7 +9,7 @@ reduce the need of bandwidth when downloading the patch file from network server
 
 In the original file `patch.c` of Xdelta v3 , some system call do not check the return value, i fixed these issues.
 
-The market of Google Play use bsddiff method to update binary APK, recently a more advanced method is introduced for Google Play,
+The market of Google Play use `bsddiff` method to update binary APK, recently a more advanced method is introduced for Google Play,
 which implement file-by-file patch inside an archive file. please visit it's GitHub project [here](https://github.com/andrewhayden/archive-patcher) for more details.
 
 
